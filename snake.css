@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap');
+
+/*{
+  border: solid 3px orange;
+}*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .body-one {
+    position: relative;
+    background: rgb(0, 0, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white;
+    background: black;
+  }
+  .score-container{
+    font-family: 'Tektur', cursive;
+    font-size: 30px;
+    margin: -43% 0 0 -40%;
+    color: white;
+    position: absolute;
+  }
+  .score-container{
+    width: 30%;
+}
+.score-container ul{
+    list-style: none;
+}
+.score-container ul li{
+    display: inline-block;
+    padding: 2%;
+    margin: 0 6% 0 0;
+}
+.score-container ul li div{
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+/*.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.675);
+}
+.modal form{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  width: 30%;
+  height: 50%;
+  border-radius: 10%;
+  background: white;
+}
+#popupBestScore{
+  margin: 0% 0 0 30%;
+  font-size: 210%;
+  color: gray;
+  font-family: 'Tektur', cursive;
+}
+#popupScore{
+  margin: 20% 0 0 35%;
+  font-size: 170%;
+  color: gray;
+  font-family: 'Tektur', cursive;
+}
+#again{
+  margin: 26% 0 0 25%;
+  width: 50%;
+  padding: 2% 0;
+  transition: .4s;
+  color: white;
+  background-color: green;
+  font-family: 'Tektur', cursive;
+}
+#again:hover{
+  cursor: pointer;
+  padding: 4%;
+  transition: .5s;
+}
+body #back{
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  width: 5%;
+  text-decoration: none; 
+  background: gray;
+  border-radius: 40px; 
+  text-align: center;
+  padding: .8%;
+  margin: -40% 0 0 -90%;
+}
+body #back:hover{
+  background: rgba(128, 128, 128, 0.478);
+  border: solid 3px black;
+}
+#colorModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  z-index: 10;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  background: rgba(0, 0, 0, 0.675);
+}
+
+#colorModal button {
+  margin-top: 20px;
+}
+
+#playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1;
+}
+*/
